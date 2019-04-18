@@ -1,0 +1,26 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "with mongo db and authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaitraleeMore/application.git"
+  },
+  "author": "CM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaitraleeMore/application/issues"
+  },
+  "homepage": "https://github.com/ChaitraleeMore/application#readme",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "ejs": "2.6.1",
+    "express": "4.16.4",
+    "mongoose": "^5.5.2"
+  }
+}
